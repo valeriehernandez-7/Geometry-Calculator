@@ -28,7 +28,6 @@ public class Rectangle extends Figure implements Comparable<Figure> {
         double figureAreaReference = this.area();
         int figureSidesReference = this.sides();
         // comparison
-        String operator;
         System.out.println("\n--- COMPARISON DATA  ---\n" + getClass().getSimpleName() + " vs " + figureToCompare.getClass().getSimpleName());
         System.out.println(getClass().getSimpleName() + " Area: " + figureAreaReference);
         System.out.println(figureToCompare.getClass().getSimpleName() + " Area: " + figureAreaToCompare);
